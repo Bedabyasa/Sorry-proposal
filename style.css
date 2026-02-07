@@ -1,0 +1,94 @@
+/* Reset default margin */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main proposal box */
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Main question text */
+h1 {
+    font-size: 36px;
+    color: #ff4d6d;
+    margin-bottom: 30px;
+}
+
+/* Buttons layout */
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Common button style */
+button {
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* YES button */
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.1);
+}
+
+/* NO button */
+#noBtn {
+    background-color: #ddd;
+    color: black;
+    position: relative;
+}
+
+/* ================= YES PAGE DESIGN ================= */
+
+.yes-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Romantic text */
+.yes-page p {
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* YES page heading */
+.yes-page h1 {
+    font-size: 42px;
+}
+
+/* Extra message */
+.yes-page h2 {
+    margin-top: 20px;
+    font-size: 28px;
+}
